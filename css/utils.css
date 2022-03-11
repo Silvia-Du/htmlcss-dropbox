@@ -12,7 +12,9 @@ h1{
   font-size: 6rem;
 }
 
-
+.jumbotron{
+  margin-bottom: 100px;
+}
 
 /* MAIN */
 

@@ -53,6 +53,10 @@ nav ul li{
   height: 100px;
 }
 
+.jumbotron .section{
+  height: 900px;
+}
+
 .jumbotron .col40{
   padding-top: 60px;
   padding-right: 70px;
@@ -79,10 +83,9 @@ nav ul li{
  width: 114%;
 }
 
-/* .jumbotron .col40 .main-text{
-  padding-bottom: 50px;
-} */
 /* MAIN */
+
+
 
 
 

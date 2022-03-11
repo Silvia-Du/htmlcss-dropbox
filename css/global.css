@@ -42,20 +42,21 @@ a{
   width: 80%;
   min-height: 700px;
   margin: 0 auto;
-  background-color: rgb(201, 105, 41);
-  border: 1px solid black;
 }
 
 .container90{
   width: 80%;
   min-height: 700px;
   margin: 0 auto;
-  background-color: rgb(201, 105, 41);
-  border: 1px solid black;
 }
 
 .debug{
   background-color: blueviolet;
+  border: 1px solid black;
+}
+
+.debug-c9080{
+  background-color: rgb(201, 105, 41);
   border: 1px solid black;
 }
 
