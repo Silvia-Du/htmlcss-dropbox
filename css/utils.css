@@ -4,7 +4,38 @@
 
 /* JUMBO */
 
+.jumbotron .row-full-w{
+  padding-top: 130px;
+} 
 
+h1{
+  font-size: 6rem;
+}
+
+.jumbotron .col40{
+  padding-top: 60px;
+  padding-right: 70px;
+}
+
+.jumbotron .col60{
+  padding-top: 60px;
+}
+
+.jumbotron .col40 a{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding: 15px 25px;
+  font-size: 1.3rem;
+}
+
+.jumbotron i{
+  font-size: 3rem;
+  margin: 50px auto;
+}
+
+.jumbotron .col60 img{
+ width: 114%;
+}
 
 
 /* MAIN */

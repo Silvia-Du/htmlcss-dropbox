@@ -19,6 +19,9 @@ a{
   color: black;
 }
 
+.main-text{
+  font-size: 1.4rem;
+}
 
 .btn-blue{
   padding: 10px 20px;
