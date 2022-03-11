@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-a{
-  text-decoration: none;
-}
-
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -18,10 +14,15 @@ body{
   clear: both;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
 .btn-blue{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 1.2rem;
+  padding: 10px 20px;
+  font-size: 1.1rem;
   color: white;
   background-color: #0061ff;
 }
@@ -50,45 +51,44 @@ body{
   border: 1px solid black;
 }
 
+.debug{
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+
 .col30{
   float: left;
   width: calc(100% / 3);
   min-height: 300px;
-  background-color: blueviolet;
-  border: 1px solid black;
+
 }
 
 .col60{
   float: left;
   width: calc(100% / 5 * 3);
   min-height: 300px;
-  background-color: blueviolet;
-  border: 1px solid black;
-}
 
+}
 
 .col40{
   float: left;
   width: calc(100% / 5 * 2);
   min-height: 300px;
-  background-color: blueviolet;
-  border: 1px solid black;
+
 }
 
 .row-full-w{
   float: left;
   width: 100%;
   min-height: 300px;
-  background-color: blueviolet;
-  border: 1px solid black;
+
 }
 
 .col-footer50{
   float: left;
   width: calc(100% / 5);
   min-height: 200px;
-  background-color: blueviolet;
-  border: 1px solid black;
+ 
 }
 
 
