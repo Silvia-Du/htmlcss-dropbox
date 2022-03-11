@@ -7,6 +7,10 @@ nav ul li{
   font-weight: bold;
 }
 
+ul li i{
+  margin-right: 10px;
+}
+
 
 
 /* JUMBO */
@@ -24,14 +28,23 @@ h2{
   margin-bottom: 70px;
 }
 
-/* MAIN */
-
-/* abbonamenti */
-
 h3{
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
+
+h5{
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+/* MAIN */
+.margin35{
+  display: inline-block;
+  margin: 50px 0;
+}
+/* abbonamenti */
 
 .price, .month{
   display: block;
@@ -55,10 +68,12 @@ h3{
   margin-bottom: 50px;
 }
 
-.margin35{
-  display: inline-block;
-  margin: 50px 0;
+.border{
+  border: 1px solid gray;
 }
+
+
+
 
 
 /* FOOTER */

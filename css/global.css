@@ -23,6 +23,8 @@ a{
   font-size: 1.4rem;
 }
 
+
+
 .btn-full-w{
   text-align: center;
   display: block;
@@ -41,6 +43,13 @@ a{
 
 .txt-blue{
   color: #0061ff;
+}
+
+.line-gray{
+  width: 100px;
+  height: 1px;
+  background-color: gray;
+  margin-bottom: 50px;
 }
 
 .section{

@@ -82,15 +82,16 @@ header{
 /* MAIN */
 
 /* abbonamenti */
-.border{
-  border: 1px solid gray;
-}
 
 .abbonamenti .row-full-w{
   margin-bottom: 40px;
 }
 
-.abbonamenti .col30 .col-top{
+.abbonamenti .col30{
+  height: 1440px;
+}
+
+.abbonamenti .col-top{
   margin-bottom: 20px;
 }
 
@@ -113,7 +114,7 @@ header{
   margin: 0 15px;
 }
 
- .col30 .border.col-top{
+ .col30, .row-full-w .col-top{
    text-align: center;
    border-bottom: 1px solid #999999;
    padding: 10px;
@@ -123,6 +124,11 @@ header{
  .col30 .border.col-top i{
    font-size: 1.5rem;
  }
+
+ .fa-check{
+  font-size: 1.5rem;
+  color: #0061ff;
+}
 
 
 
