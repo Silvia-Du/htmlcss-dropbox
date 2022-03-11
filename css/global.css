@@ -11,3 +11,33 @@ a{
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+.clearfix::after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.btn-blue{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #0061ff;
+}
+
+.section{
+  width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.container{
+  width: 80%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: rgb(201, 105, 41);
+  border: 1px solid black;
+}
