@@ -23,11 +23,24 @@ a{
   font-size: 1.4rem;
 }
 
-.btn-blue{
-  padding: 10px 20px;
+.btn-full-w{
+  text-align: center;
+  display: block;
+  padding: 10px 30px;
   font-size: 1.1rem;
   color: white;
   background-color: #0061ff;
+}
+
+.btn-blue{
+  padding: 18px 20px;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #0061ff;
+}
+
+.txt-blue{
+  color: #0061ff;
 }
 
 .section{
@@ -51,6 +64,7 @@ a{
 }
 
 .debug{
+  min-height: 300px;
   background-color: blueviolet;
   border: 1px solid black;
 }
@@ -84,7 +98,7 @@ a{
 .row-full-w{
   float: left;
   width: 100%;
-  min-height: 300px;
+  
 
 }
 

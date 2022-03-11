@@ -1,4 +1,11 @@
 /* HEADER */
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 35px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
 
 
 
@@ -12,13 +19,46 @@ h1{
   font-size: 6rem;
 }
 
-.jumbotron{
-  margin-bottom: 100px;
+h2{
+  font-size: 3.5rem;
+  margin-bottom: 70px;
 }
 
 /* MAIN */
 
+/* abbonamenti */
 
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.price, .month{
+  display: block;
+  
+}
+
+.price{
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.month{
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.abbonamenti ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.margin35{
+  display: inline-block;
+  margin: 50px 0;
+}
 
 
 /* FOOTER */
