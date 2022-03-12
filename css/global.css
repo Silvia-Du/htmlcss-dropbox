@@ -23,8 +23,6 @@ a{
   font-size: 1.4rem;
 }
 
-
-
 .btn-full-w{
   text-align: center;
   display: block;
@@ -45,11 +43,10 @@ a{
   color: #0061ff;
 }
 
-.line-gray{
+.line{
   width: 100px;
   height: 1px;
-  background-color: gray;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .section{
@@ -86,29 +83,27 @@ a{
 .col30{
   float: left;
   width: calc(100% / 3);
-  min-height: 300px;
-
 }
+
+
 
 .col60{
   float: left;
   width: calc(100% / 5 * 3);
-  min-height: 300px;
+  
 
 }
 
 .col40{
   float: left;
   width: calc(100% / 5 * 2);
-  min-height: 300px;
+  
 
 }
 
 .row-full-w{
   float: left;
   width: 100%;
-  
-
 }
 
 .col-footer50{

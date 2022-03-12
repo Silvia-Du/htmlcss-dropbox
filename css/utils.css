@@ -46,31 +46,6 @@ h5{
 }
 /* abbonamenti */
 
-.price, .month{
-  display: block;
-  
-}
-
-.price{
-  font-weight: bold;
-  margin: 20px 0;
-}
-
-.month{
-  color: gray;
-  margin-bottom: 50px;
-}
-
-.abbonamenti ul li{
-  display: inline-block;
-  list-style: none;
-  font-size: 1.3rem;
-  margin-bottom: 50px;
-}
-
-.border{
-  border: 1px solid gray;
-}
 
 
 
