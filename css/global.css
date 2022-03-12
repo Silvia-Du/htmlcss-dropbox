@@ -39,6 +39,15 @@ a{
   background-color: #0061ff;
 }
 
+.btn-white{
+  text-align: center;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  color: black;
+  background-color: white;
+}
+
 .txt-blue{
   color: #0061ff;
 }
@@ -84,26 +93,38 @@ a{
   border: 1px solid black;
 }
 
+.col20{
+  float: left;
+  width: 30%;
+}
+
 .col30{
   float: left;
   width: calc(100% / 3);
-}
-
-
-
-.col60{
-  float: left;
-  width: calc(100% / 5 * 3);
-  
-
 }
 
 .col40{
   float: left;
   width: calc(100% / 5 * 2);
   
-
 }
+
+.col50{
+  float: left;
+  width: calc(100% / 2);
+}
+
+.col60{
+  float: left;
+  width: calc(100% / 5 * 3);
+ 
+}
+
+.debug50{
+  border: 1px solid black;
+  min-height: 100px;
+}
+
 
 .row-full-w{
   float: left;

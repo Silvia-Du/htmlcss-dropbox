@@ -47,6 +47,9 @@ h5{
   font-weight: bold; 
 }
 
+.padding-section{
+  padding-top: 140px;
+}
 /* MAIN */
 .margin35{
   display: inline-block;

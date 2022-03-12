@@ -85,14 +85,84 @@ header{
 /* abbonamenti */
 
 
+/* contatto */
+
+.contatto .col50.right{
+  padding: 60px 0 0 60px;
+}
+
+.contatto .col50 img{
+  width: 100%;
+}
+
+.contatto .col50.right .main-text{
+  line-height: 2.4rem;
+  margin: 50px 0;
+}
+
+.contatto .col50.right .btn-white{
+  border: 1px solid black;
+  box-shadow: 0px -2px black;
+}
 
 
+/* .contatto .col60{
+  background-image: url(../img/partner.png);
+  background-size: cover;
+  background-position: center;
+} */
+
+
+
+
+
+/* partner */
+
+.partner .top a{
+  display: inline-block;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  margin-bottom: 70px;
+}
+
+/* partner-center */
+
+
+
+
+/* partner-bottom */
+.section.partner .bottom h2{
+  color: #61082b;
+  margin:0;
+}
+
+.partner .bottom{
+  padding: 90px;
+  background-color: #b4d0e7;
+}
+
+.partner .bottom .col50.left{
+  padding-right: 30px;
+}
+
+.partner .bottom .col50.right{
+  text-align: center;
+}
+
+.partner .bottom .col50.right .btn-white{
+  padding: 13px 100px;
+  font-weight: bold;
+}
+
+/* img partner */
+
+.partner .col20-partner img{
+  width: 100%;
+}
 
 /* faq */
 
-.faq .container80{
-  padding: 140px 0;
-}
+
 
 .section.faq .row{
   width: 100%;
