@@ -53,6 +53,9 @@ a{
   width: 100%;
   min-height: 700px;
   margin: 0 auto;
+}
+
+.s-debug{
   background-color: aquamarine;
   border: 1px solid black;
 }
@@ -64,9 +67,10 @@ a{
 }
 
 .container90{
-  width: 80%;
+  width: 90%;
   min-height: 700px;
   margin: 0 auto;
+  padding-top: 120px;
 }
 
 .debug{
@@ -110,7 +114,6 @@ a{
   float: left;
   width: calc(100% / 5);
   min-height: 200px;
- 
 }
 
 
