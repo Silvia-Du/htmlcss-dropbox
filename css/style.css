@@ -50,12 +50,8 @@ header{
   background-color: #b4d0e7;
 }
 
-.jumbotron .section{
-  height: 900px;
-}
-
 .jumbotron .col40{
-  padding-right: 70px;
+  padding-right: 150px;
 }
 
 .jumbotron .row-full-w{
@@ -107,7 +103,7 @@ header{
 /* business */
 
 .business .col30{
-  padding: 0 30px 30px 0;
+  padding: 0 75px 85px 0;
 }
 
 .business .col-top, .col-bottom{
@@ -123,7 +119,7 @@ header{
 }
 
 .business .col30 .main-text{
-  line-height: 2.4rem;
+  line-height: 1.7rem;
 }
 
 /* partner */
@@ -208,7 +204,8 @@ header{
 }
 
 .col-partner.center .line{
-  background-color: gary;
+  background-color: rgb(165, 157, 157);
+  
 }
 
 
