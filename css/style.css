@@ -83,7 +83,10 @@ header{
 /* MAIN */
 
 /* abbonamenti */
-
+.abbonamento .col30{
+  border: 1px solid gray;
+  height: 300px;
+}
 
 /* contatto */
 
@@ -164,6 +167,10 @@ header{
   margin: 0 auto;
 }
 
+.col-partner .box img{
+  filter: invert(1);
+}
+
 .box.designit{
   background-color: #a2d39b;
 }
@@ -226,24 +233,24 @@ header{
   margin:0;
 }
 
-.partner .bottom{
+.partner .cta{
   padding: 120px;
   background-color: #b4d0e7;
+  border: 1px solid black;
 }
 
-.partner .bottom .col50.left{
+.partner .cta .col50.left{
   padding-right: 30px;
 }
 
-.partner .bottom .col50.right{
+.partner .cta .col50.right{
   text-align: center;
 }
 
-.partner .bottom .col50.right .btn-white{
+.partner .cta .col50.right .btn-white{
   padding: 13px 100px;
   font-weight: bold;
 }
-
 
 
 /* faq */
