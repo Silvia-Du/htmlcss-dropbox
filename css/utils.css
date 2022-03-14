@@ -24,22 +24,26 @@ h1{
 }
 
 h2{
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   margin-bottom: 70px;
 }
 
 h3{
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
 }
 
 h4{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .underline{
   text-decoration: underline;
+}
+
+.bold{
+  font-weight: bold;
 }
 
 .padding-section{
@@ -49,10 +53,6 @@ h4{
 
 
 /* MAIN */
-.margin35{
-  display: inline-block;
-  margin: 50px 0;
-}
 
 .box:hover, .active-box{
   box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.3);

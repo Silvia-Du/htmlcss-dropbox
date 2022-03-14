@@ -99,30 +99,49 @@ header{
 }
 
 .abbonamento .col30 .top, .bottom{
-  padding: 30px;
+  padding: 50px;
 }
 
 .abbonamento .col30 h3{
   margin: 30px auto;
 }
 
-.abbonamento .col30 span{
+.abbonamento .col30 span.price, span.month{
   display: block;
   line-height: 40px;
 }
 
 .abbonamento .col30 .month{
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .abbonamento .col30 ul{
-  margin: ;
+  margin-bottom: 60px;
 }
 
 .abbonamento .col30 li{
+  position: relative;
   margin-bottom: 20px;
+  margin-left: 30px;
 }
 
+.abbonamento .col30 a{
+  margin-bottom: 60px;
+}
+
+.abbonamento .col30 i{
+  position: absolute;
+  left: -27px;
+}
+
+.abbonamento .col30 i.fa-check{
+  color: #0061ff;
+}
+
+.abbonamento .col30 .main-text.bold{
+  display: inline-block;
+  margin-bottom: 30px;
+}
 
 /* contatto */
 
