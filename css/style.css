@@ -86,6 +86,12 @@ header{
 .abbonamento .col30{
   border: 1px solid gray;
   height: 300px;
+  width: calc(92% /3);
+  padding: 20px;
+}
+
+.abbonamento .col30.middle{
+  margin: 0 4% 0 4%;
 }
 
 /* contatto */
@@ -144,6 +150,7 @@ header{
 .partner .center .col-partner{
   margin: 0 auto;
   float: left;
+  height: 30vw;
 }
 
 .col-partner.left, .col-partner.right{
@@ -234,14 +241,12 @@ header{
 }
 
 .partner .cta{
-  padding: 120px;
+  
   background-color: #b4d0e7;
   border: 1px solid black;
 }
 
-.partner .cta .col50.left{
-  padding-right: 30px;
-}
+
 
 .partner .cta .col50.right{
   text-align: center;
