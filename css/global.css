@@ -60,7 +60,7 @@ a{
 
 .section{
   width: 100%;
-  min-height: 700px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
@@ -76,7 +76,6 @@ a{
 
 .container90{
   width: 90%;
-  min-height: 700px;
   margin: 0 auto;
 }
 
