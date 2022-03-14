@@ -85,14 +85,44 @@ header{
 /* abbonamenti */
 .abbonamento .col30{
   border: 1px solid gray;
-  height: 300px;
+  min-height: 700px;
   width: calc(92% /3);
-  padding: 20px;
 }
 
 .abbonamento .col30.middle{
   margin: 0 4% 0 4%;
 }
+
+.abbonamento .col30 .top{
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.abbonamento .col30 .top, .bottom{
+  padding: 30px;
+}
+
+.abbonamento .col30 h3{
+  margin: 30px auto;
+}
+
+.abbonamento .col30 span{
+  display: block;
+  line-height: 40px;
+}
+
+.abbonamento .col30 .month{
+  margin-bottom: 40px;
+}
+
+.abbonamento .col30 ul{
+  margin: ;
+}
+
+.abbonamento .col30 li{
+  margin-bottom: 20px;
+}
+
 
 /* contatto */
 
