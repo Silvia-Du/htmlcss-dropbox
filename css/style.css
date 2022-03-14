@@ -55,12 +55,11 @@ header{
 }
 
 .jumbotron .col40{
-  padding-top: 60px;
   padding-right: 70px;
 }
 
-.jumbotron .col60{
-  padding-top: 60px;
+.jumbotron .row-full-w{
+  padding: 150px 0 60px 0;
 }
 
 .jumbotron .col40 a{
@@ -77,7 +76,7 @@ header{
 }
 
 .jumbotron .col60 img{
- width: 114%;
+ width: 100%;
 }
 
 /* MAIN */
@@ -138,6 +137,81 @@ header{
 
 /* partner-center */
 
+.partner .center .col-partner{
+  margin: 0 auto;
+  float: left;
+}
+
+.col-partner.left, .col-partner.right{
+  width: 30vw;
+  height: 30vw;
+}
+
+.col-partner .box{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.col-partner .box img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.box.designit{
+  background-color: #a2d39b;
+}
+
+.box.asu{
+  background-color: #61082b;
+}
+
+.box.uf{
+  background-color: #0093ce;
+}
+
+.box.toops{
+  background-color: #ff1c1c;
+}
+
+.box.world{
+  background-color: #d5001f;
+}
+
+.box.hearst{
+  background-color: #b4d0e7;
+}
+
+.box.lonely{
+  background-color: #0d2481;
+}
+
+.box.channel{
+  background-color: #ffd830;
+}
+
+/* partner-center */
+
+.partner .center .col-partner.center{
+  width: calc(99.4% - 60vw);
+  background-color: #f5f5f5;
+  padding: 50px 50px;
+}
+
+.col-partner.center img{
+  width: 140px;
+}
+
+.col-partner.center .line{
+  background-color: gary;
+}
+
+
 
 
 
@@ -148,7 +222,7 @@ header{
 }
 
 .partner .bottom{
-  padding: 90px;
+  padding: 120px;
   background-color: #b4d0e7;
 }
 
@@ -165,11 +239,7 @@ header{
   font-weight: bold;
 }
 
-/* img partner */
 
-.partner .col20-partner img{
-  width: 100%;
-}
 
 /* faq */
 
@@ -228,7 +298,14 @@ footer .line{
   width: 130px;
 }
 
-footer i{
-  margin-left: 5px;
-  font-size: 0.8rem;
+footer .language{
+  margin: 0 5px;
+}
+
+footer .fa-chevron-up{
+  font-size: 0.6rem;
+}
+
+footer .fa-earth-americas{
+  font-size: 1.2rem;
 }

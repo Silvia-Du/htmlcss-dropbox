@@ -71,7 +71,7 @@ a{
 
 .container80{
   width: 80%;
-  min-height: 700px;
+  
   margin: 0 auto;
 }
 
@@ -89,6 +89,7 @@ a{
 }
 
 .debug-c9080{
+  min-height: 700px;
   background-color: rgb(201, 105, 41);
   border: 1px solid black;
 }

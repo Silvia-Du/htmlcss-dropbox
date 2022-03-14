@@ -19,10 +19,6 @@ ul li i{
 
 /* JUMBO */
 
-.jumbotron .row-full-w{
-  padding-top: 130px;
-} 
-
 h1{
   font-size: 6rem;
 }
@@ -42,11 +38,6 @@ h4{
   font-weight: bold;
 }
 
-h5{
-  font-size: 1.5rem;
-  font-weight: bold; 
-}
-
 .underline{
   text-decoration: underline;
 }
@@ -55,11 +46,26 @@ h5{
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+
 /* MAIN */
 .margin35{
   display: inline-block;
   margin: 50px 0;
 }
+
+.box:hover{
+  box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* se deve essere una classe per java */
+
+.active-box{
+  box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
 /* abbonamenti */
 
 
