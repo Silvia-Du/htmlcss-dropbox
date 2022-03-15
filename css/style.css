@@ -87,8 +87,10 @@ nav ul li{
 
 /* MAIN */
 
-/* abbonamenti row-top  */
+/* abbonamenti */
 
+
+/* row-title */
 .radio-container{
   margin-bottom: 30px;
   font-size: 1.2rem;
@@ -97,21 +99,6 @@ nav ul li{
 .radio-container input{
   margin-right: 10px;
 }
-
-
-.abbonamenti .row{
-  width: 100%; 
-}
-
-.abbonamenti .row-title h2{
-  margin-bottom: 100px;
-}
-
-.abbonamenti .row-title{
-  margin-bottom: 60px;
-}
-
-
 
 /* abbonamenti colonne*/
 .border{
@@ -128,12 +115,12 @@ nav ul li{
   margin: 0 4% 0 4%;
 }
 
-.abbonamento .top-space{
+.abbonamento .top-col{
   text-align: center;
   border-bottom: 1px solid gray;
 }
 
-.abbonamento .top-space, .abbonamento .bottom{
+.abbonamento .top-col, .abbonamento .bottom{
   padding: 25px;
 }
 
@@ -141,7 +128,7 @@ nav ul li{
   margin: 20px auto;
 }
 
-.abbonamento .col30 span.price, span.month{
+.abbonamento .col30 .price, .month{
   display: block;
   line-height: 40px;
 }
@@ -151,19 +138,12 @@ nav ul li{
   color: gray;
 }
 
-.abbonamento .col30 ul{
-  margin-bottom: 60px;
-}
-
 .abbonamento .col30 .bottom li{
   position: relative;
   margin-bottom: 20px;
   margin-left: 30px;
 }
 
-.abbonamento .col30 a{
-  margin-bottom: 60px;
-}
 
 .abbonamento .col30 .bottom i{
   position: absolute;
@@ -173,6 +153,11 @@ nav ul li{
 .abbonamento .col30 i.fa-check{
   color: #0061ff;
 }
+
+.abbonamento .col30 a{
+  margin: 60px 0;
+}
+
 
 .abbonamento .col30 .main-text.bold{
   display: inline-block;
@@ -202,7 +187,7 @@ nav ul li{
   margin-top: 20px;
 }
 
-.abbonamento .row-full-w .bottom.left .main-text{
+.abbonamento .row-full-w .bottom .main-text{
   display: inline-block;
   margin-bottom: 30px;
 }
