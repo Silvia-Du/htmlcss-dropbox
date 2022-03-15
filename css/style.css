@@ -383,13 +383,26 @@ header{
   line-height: 100px
 }
 
-.faq .row .chevon{
+.faq .row .chevron-down{
   position: absolute;
   right: 0;
   top: 0;
   height: 100px;
   width: 100px;
   text-align: center;
+}
+
+.section.faq .row-ghost{
+  width: 100%;
+  position: relative;
+  display: none;
+  border-bottom: 2px solid #e6e8eb;
+  padding: 20px 0;
+}
+
+.section.faq .row-ghost p{
+  width: 80%;
+  color: gray;
 }
 
 .faq .row-top{

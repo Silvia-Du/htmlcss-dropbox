@@ -26,6 +26,15 @@ nav ul li a:hover{
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.faq .row:hover + .row-ghost{
+  display: block;
+}
+
+
+.faq .row:hover .chevron-down{
+  transform: rotate(180deg);
+}
+
 ul li{
   list-style: none;
 }
