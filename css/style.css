@@ -46,7 +46,7 @@ header{
 }
 
 .jumbotron{
-  margin-bottom: 250px;
+  margin-bottom: 100px;
   background-color: #b4d0e7;
 }
 
@@ -83,6 +83,16 @@ header{
 /* MAIN */
 
 /* abbonamenti row-top  */
+
+.radio-container{
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.radio-container input{
+  margin-right: 10px;
+}
+
 
 .abbonamenti .row{
   width: 100%; 
