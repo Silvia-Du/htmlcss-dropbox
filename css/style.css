@@ -455,3 +455,8 @@ footer .fa-chevron-up{
 footer .fa-earth-americas{
   font-size: 1.2rem;
 }
+
+footer ul li:nth-child(1){
+  font-weight: bold;
+  margin-bottom: 3px;
+}
