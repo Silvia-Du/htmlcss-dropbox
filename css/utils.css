@@ -13,8 +13,11 @@ nav ul li a:hover{
   color: #0061ff;
 }
 
+nav ul li:hover{
+  border-bottom: 3px solid black;
+}
+
 .btn-blue:hover{
-  color: white;
   opacity: 0.9;
 }
 

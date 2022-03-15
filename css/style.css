@@ -13,7 +13,7 @@ header{
   float: left;
   width: calc(100% / 2);
   height: 100%;
-  line-height: 100px;
+  line-height: 98.5px;
 }
 
 .nav-col.left img{
@@ -374,7 +374,9 @@ header{
 
 /* faq */
 
-
+.section.faq{
+  padding-bottom: 150px;
+}
 
 .section.faq .row{
   width: 100%;
