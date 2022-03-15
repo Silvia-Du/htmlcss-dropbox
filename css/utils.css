@@ -8,36 +8,6 @@ nav ul li{
   font-weight: bold;
 }
 
-
-nav ul li a:hover{
-  color: #0061ff;
-}
-
-nav ul li:hover{
-  border-bottom: 3px solid black;
-}
-
-.btn-blue:hover{
-  opacity: 0.9;
-}
-
-.btn-full-w:hover{
-  opacity: 0.9;
-}
-
-.btn-white:hover{
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.faq .row:hover + .row-ghost{
-  display: block;
-}
-
-
-.faq .row:hover .chevron-down{
-  transform: rotate(180deg);
-}
-
 ul li{
   list-style: none;
 }
@@ -76,6 +46,37 @@ h4{
 .padding-section{
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+/* HOVER */
+
+
+nav ul li a:hover{
+  color: #0061ff;
+}
+
+nav ul li:hover{
+  border-bottom: 3px solid black;
+}
+
+.btn-blue:hover{
+  opacity: 0.9;
+}
+
+.btn-full-w:hover{
+  opacity: 0.9;
+}
+
+.btn-white:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.faq .row:hover + .row-ghost{
+  display: block;
+}
+
+.faq .row:hover .chevron-down{
+  transform: rotate(180deg);
 }
 
 .box:hover, .active-box{
