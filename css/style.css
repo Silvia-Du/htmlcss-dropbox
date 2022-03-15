@@ -321,18 +321,18 @@ nav ul li{
   margin-bottom: 40px;
 }
 
-/* partner-bottom */
+/* partner-cta */
 
-.row-full-w.bottom{
+.row-full-w.cta{
   background-color: #b4d0e7;
 }
 
-.partner .bottom .container80{
+.partner .cta .container80{
   padding: 90px 0;
 }
 
 
-.partner .bottom h2{
+.partner .cta h2{
   color: #61082b;
   margin: 0;
 }
@@ -349,6 +349,7 @@ nav ul li{
 /* faq */
 
 .section.faq{
+  
   padding-bottom: 150px;
 }
 
