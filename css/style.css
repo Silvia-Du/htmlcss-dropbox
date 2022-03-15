@@ -106,9 +106,7 @@ header{
   margin-bottom: 60px;
 }
 
-i.fa-circle-dot{
-  color: #0061ff;
-}
+
 
 /* abbonamenti colonne*/
 .border{
@@ -118,24 +116,24 @@ i.fa-circle-dot{
 .abbonamento .col30{
   min-height: 1200px;
   width: calc(92% /3);
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .abbonamento .col30.middle{
   margin: 0 4% 0 4%;
 }
 
-.abbonamento .col30 .top{
+.abbonamento .top-space{
   text-align: center;
   border-bottom: 1px solid gray;
 }
 
-.abbonamento .col30 .top, .bottom{
-  padding: 50px;
+.abbonamento .top-space, .bottom{
+  padding: 25px;
 }
 
-.abbonamento .col30 h3{
-  margin: 30px auto;
+.abbonamento h3{
+  margin: 20px auto;
 }
 
 .abbonamento .col30 span.price, span.month{
@@ -145,6 +143,7 @@ i.fa-circle-dot{
 
 .abbonamento .col30 .month{
   margin-bottom: 50px;
+  color: gray;
 }
 
 .abbonamento .col30 ul{
@@ -180,6 +179,29 @@ i.fa-circle-dot{
 .abbonamento .row-full-w{
   min-height: 300px;
 }
+
+.abbonamento .row-full-w .left, .right{
+  float: left;
+}
+
+.abbonamento .row-full-w .left{
+  width: 70%;
+  padding-right: 0;
+}
+
+.abbonamento .row-full-w .right{
+  width: 30%;
+}
+
+.abbonamento .row-full-w .right a{
+  margin-top: 20px;
+}
+
+.abbonamento .row-full-w .bottom.left .main-text{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
 
 
 /* contatto */
