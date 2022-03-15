@@ -238,7 +238,7 @@ nav ul li{
 
 /* partner */
 
-.partner .top a{
+.partner .row-title a{
   display: inline-block;
   font-size: 1.4rem;
   text-decoration: underline;
@@ -247,34 +247,30 @@ nav ul li{
 
 /* partner-center */
 
-.partner .center .col-partner{
-  margin: 0 auto;
+.partner .row-with-box .row-partner{
   float: left;
   height: 30vw;
 }
 
-.col-partner.left, .col-partner.right{
+.row-partner.left, .row-partner.right{
   width: 30vw;
   height: 30vw;
 }
 
-.col-partner .box{
+.row-partner .box{
   position: relative;
   float: left;
   width: 50%;
   height: 50%;
 }
 
-.col-partner .box img{
+.row-partner .box img{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
   margin: 0 auto;
-}
-
-.col-partner .box img{
   filter: invert(1);
 }
 
@@ -310,27 +306,18 @@ nav ul li{
   background-color: #ffd830;
 }
 
-
-.col-partner.center{
+.row-partner.center{
   width: calc(100% - 60vw);
   background-color: #f5f5f5;
   padding: 60px 50px;
   overflow: auto;
 }
 
-.col-partner.center .text-box{
-  height: 10vw;
-}
-
-.col-partner.center img{
+.row-partner.center img{
   width: 140px;
 }
 
-.col-partner.center .line{
-  background-color: rgb(165, 157, 157); 
-}
-
-.col-partner.center .main-text{
+.row-partner.center .main-text{
   margin-bottom: 40px;
 }
 
@@ -356,10 +343,7 @@ nav ul li{
 
 .partner .col50.right .btn-white{
   padding: 13px 100px;
-  font-weight: bold;
 }
-
-
 
 
 /* faq */
