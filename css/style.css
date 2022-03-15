@@ -37,6 +37,31 @@ header{
   padding: 10px 20px;
 }
 
+nav ul li{
+  position: relative;
+}
+
+nav ul li:hover .drop-down-content{
+  display: block;
+}
+
+.drop-down-content{
+  display: none;
+  color: black;
+  position: absolute;
+  left: -30px;
+  background-color: #D9D9D9;
+  min-width: 160px;
+  text-align: center;
+}
+
+#my-drop-down a{
+  padding: 20px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+
 /* JUMBO */
 
 .jumbotron::before{
@@ -150,7 +175,7 @@ header{
   margin-bottom: 60px;
 }
 
-.abbonamento .col30 li{
+.abbonamento .col30 .bottom li{
   position: relative;
   margin-bottom: 20px;
   margin-left: 30px;
@@ -160,7 +185,7 @@ header{
   margin-bottom: 60px;
 }
 
-.abbonamento .col30 i{
+.abbonamento .col30 .bottom i{
   position: absolute;
   left: -27px;
 }
@@ -427,10 +452,6 @@ footer .section{
   color: white;
 }
 
-footer h5{
-  margin-bottom: 25px;
-}
-
 footer ul li a{
   font-size: 1.1rem;
   display: block;
@@ -456,7 +477,6 @@ footer .fa-earth-americas{
   font-size: 1.2rem;
 }
 
-footer ul li:nth-child(1){
-  font-weight: bold;
-  margin-bottom: 3px;
+footer ul li:first-child{
+  margin-bottom: 15px;
 }
